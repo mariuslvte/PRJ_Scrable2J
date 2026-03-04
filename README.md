@@ -1,14 +1,11 @@
 # PRJ_Scrable2J
 Version plus simplifiée du Scrabble
 ## Description du jeu
-*Jeu simplifié du SCRABBLE : l'application affiche le score du mot saisi par l'utilisateur / Valeur des lettres au Scrabble : https://fr.wikipedia.org/wiki/Lettres_du_Scrabble*
-*Application de bureau WPF / C#*
-*Traitement des demandes de corrections et d'évolutions*
-### Arborescence des fichiers
-
-### Objectifs pédagogiques
-*1. Versionning du code avec Git / Github*  
-    Commandes Git : `git init`/`git clone`/`git commit`/`git push`/...  
-*2. Ajout fichier README / utilisation de la syntaxe* ***Markdown***  
-*3. Ajout fichier .gitignore*  
-*4. Gestion des issues*  
+PRINCIPE DU MODE 2 JOUEURS :
+- au début de la partie, le prénom de chaque joueur est saisi
+- les joueurs jouent à tour de rôle. L’application désigne par tirage au sort le joueur qui doit commencer
+- le joueur propose un mot composé avec les 7 lettres tirées au sort par l’application
+- tout au long de la partie, le score de chaque joueur est affiché
+- la partie se termine lorsque les joueurs ont proposé chacun 10 mots. Le nom du gagnant est alors affiché par
+l’application. Les 10 mots du joueur gagnant ainsi que le mot qui a rapporté le plus grand nombre de points sont
+affichés également.
